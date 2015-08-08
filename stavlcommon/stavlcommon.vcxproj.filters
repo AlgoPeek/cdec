@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\include\stavlcommon.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\fastlogreader.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\logwriter.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\convertera.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="test\testenv.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\arrayext.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\stdext.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\threading\lock.h">
+      <Filter>threading\export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\threading\thread.h">
+      <Filter>threading\export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\threading\atom.h">
+      <Filter>threading\export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\win32\timer.h">
+      <Filter>win32\export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\appenv\arg_parser.h">
+      <Filter>appenv\export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stavlcommon\appenv\u_assert.h">
+      <Filter>appenv\export</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="stavlcommon.cpp" />
+    <ClCompile Include="fastlogreader.cpp" />
+    <ClCompile Include="logwriter.cpp" />
+    <ClCompile Include="test\test_convertera.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testenv.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_fastlogreader.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_arrayset.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="threading\test\test_threading_lock.cpp">
+      <Filter>threading\test</Filter>
+    </ClCompile>
+    <ClCompile Include="threading\test\test_threading_thread.cpp">
+      <Filter>threading\test</Filter>
+    </ClCompile>
+    <ClCompile Include="threading\thread.cpp">
+      <Filter>threading</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\timer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="appenv\arg_parser.cpp">
+      <Filter>appenv</Filter>
+    </ClCompile>
+    <ClCompile Include="appenv\u_assert.cpp">
+      <Filter>appenv</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_logwriter.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="export">
+      <UniqueIdentifier>{6a0e2a10-4aea-4979-89c7-53f641591076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{c0defd2c-539c-4b09-9e54-ec3100b85507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threading">
+      <UniqueIdentifier>{7e869e28-1a47-4e58-9197-fc6c7386c618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threading\export">
+      <UniqueIdentifier>{70a0ad44-2483-488e-bf88-d7ac12ad9b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threading\test">
+      <UniqueIdentifier>{52decd9c-5313-4fdd-9d3d-3d01620cf329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{a4b1bd52-2146-4a61-b7e7-c5e1a9c2e8ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\export">
+      <UniqueIdentifier>{47c51967-4919-4de9-abe8-8692b1dccee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="appenv">
+      <UniqueIdentifier>{b3ceb0d1-6d42-45d9-960d-34a8192596b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="appenv\export">
+      <UniqueIdentifier>{e3fa8253-2c33-42a1-99f1-518e382d298e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
