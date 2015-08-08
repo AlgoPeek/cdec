@@ -1,0 +1,42 @@
+# Precompiled headers
+*.gch
+*.pch
+
+# Complied object files
+*.slo
+*.obj
+
+# Windows
+thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.aps
+*.ncb
+*.cachefile
+*.sdf
+*.opensdf
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Python
+*.py[cod]
+*.egg
+*.egg-info
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
