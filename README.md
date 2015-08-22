@@ -60,7 +60,7 @@ Windows 编译
   - JSON: JsonParser和JsonWriter
   - Text: Encoding
   - Crypto: MD5、SHA1、AES、Base64
-  - 工具类：Converter、Math、Datetime
+  - 工具类：Converter、Math、DateTime
   - 适配第三方库：microhttpd、curl、mysqlconn、lzma、zlib
   - 更多运行库支持不断添加中
   
@@ -191,3 +191,9 @@ foreach(ref<MyClass>, o, arr)
 ```
 
 ## 基础库
+
+* 标准容器
+* IO
+* XML
+* JSON
+* Crypto
